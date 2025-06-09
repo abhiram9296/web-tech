@@ -8,6 +8,7 @@
     String email = request.getParameter("email");
     String password = request.getParameter("password");
     String error = null;
+    String mtTest = null;
 
     if (email != null && password != null) {
         Connection conn = null;
